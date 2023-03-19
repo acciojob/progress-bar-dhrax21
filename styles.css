@@ -1,1 +1,55 @@
-/*  your css code here. If applicable */
+.progress-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.circles {
+  display: inline-flex;
+  flex-direction: row;
+/*   padding:50px;  */
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+}
+
+.active {
+  background-color: #007bff;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+/*   flex-flow: row nowrap; */
+  margin-top: 20px;
+}
+
+
+button {
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#prev{
+	background-color:blue;
+	color:white;
+}
+#next{
+	background-color:blue;
+	color:white;
+}
+
+button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
