@@ -2,35 +2,40 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin:10px;	
+  margin: 50px auto;
 }
 
 .circle {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: #ddd;
-  margin: 10px;
+  margin: 0 10px;
+  border: 1px solid #ccc; 
+  background-color: #fff; 
 }
 
 .active {
-  background-color: #007bff;
+  background-color: blue;
+  border: 1px solid #7ac943;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
 
 button {
-  margin: 10px;
-  padding: 5px 10px;
-  border-radius: 5px;
-  background-color: #007bff;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: blue; 
   color: #fff;
   border: none;
+  border-radius: 5px;
   cursor: pointer;
 }
-.btn{
-	padding-left:240px;
-}
 
-button:disabled {
-  background-color: #ddd;
+button:disabled { 
   cursor: not-allowed;
 }
